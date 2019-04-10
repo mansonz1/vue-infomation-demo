@@ -8,7 +8,7 @@
         <th>姓名</th>
         <th>操作</th>
       </tr>
-      <tr v-cloak v-for="(item,index) of list">
+      <tr v-cloak v-for="(item,index) of slist">
         <td>{{item.name}}</td>
         <td><a href="javascript:;" @click="showInfo(index)">编辑</a>&nbsp&nbsp<a href="javascript:;" @click="del(index)">删除</a></td>
       </tr>
